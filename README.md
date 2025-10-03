@@ -8,7 +8,7 @@ The planner generates a collision-free path on a grid map and uses a simple goal
 # Algorithm
 <img width="1578" height="480" alt="rrt" src="https://github.com/user-attachments/assets/c38f2c8d-49c0-4fc7-a7b9-8b39de298252" />
 
-Understanding of the Algorithm
+Understanding of the Algorithm :
 
 Robot starts with only its starting point.
 
