@@ -1,0 +1,2 @@
+grid: map.npy
+goal_position: [2,-1.5]

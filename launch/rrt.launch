@@ -1,0 +1,14 @@
+<launch>
+  <!-- Export model type -->
+  <arg name="model" default="burger"/>
+  <env name="TURTLEBOT3_MODEL" value="$(arg model)"/>
+
+  <!-- Launch Gazebo Stage 4 world -->
+  <include file="$(find turtlebot3_gazebo)/launch/turtlebot3_stage_4.launch"/>
+
+  <!-- Load all planner params (grid + goal) -->
+  <rosparam file="$(find rrt)/config/params.yaml" command="load"/>
+
+  <!-- Launch RRT planner -->
+  <node pkg="rrt" type="rrt.py" name="rrt_planner" output="screen"/>
+</launch>
