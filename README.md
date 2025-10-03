@@ -40,7 +40,7 @@ roslaunch rrt rrt.launch
 ## 📸 Results
 
 **Gazebo Simulation**  
-![Gazebo Simulation](imgs/gazebo_end_pos.png)
+![Gazebo Simulation](results/gazebo_end_pos.png)
 
 **RRT Path Tree**  
 ![RRT Path](imgs/rrt_tree.png)
