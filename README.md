@@ -1,7 +1,4 @@
 # RRT Path Planning for Turtlebot3 in ROS
-<img width="1920" height="1080" alt="gazebo_end_pos" src="https://github.com/user-attachments/assets/eb9465df-dd59-457a-8aec-dad0c47249a1" />
-<img width="653" height="547" alt="rrt_path" src="https://github.com/user-attachments/assets/9e6f92e3-75ff-4566-b669-c6c20756b993" />
-
 
 
 This project implements a **Rapidly-Exploring Random Tree (RRT)** planner for the Turtlebot3 Burger robot in the Gazebo Stage 4 world.  
@@ -34,5 +31,16 @@ source devel/setup.bash
 roslaunch rrt rrt.launch
 
 ---
+
+
+---
+
+##  Results
+
+**Gazebo Simulation (Turtlebot3 navigating in Stage 4 world)**  
+<img width="1920" height="1080" alt="gazebo_end_pos" src="https://github.com/user-attachments/assets/eb9465df-dd59-457a-8aec-dad0c47249a1" />
+
+**RRT Tree and Planned Path**  
+<img width="653" height="547" alt="rrt_path" src="https://github.com/user-attachments/assets/9e6f92e3-75ff-4566-b669-c6c20756b993" />
 
 
