@@ -35,12 +35,15 @@ roslaunch rrt rrt.launch
 
 ---
 
-##  Results
 
-**Gazebo Simulation (Turtlebot3 navigating in Stage 4 world)**  
-![Gazebo Simulation](https://github.com/user-attachments/assets/4695a750-adb2-4e3b-add5-855305f7442e)
 
-**RRT Tree and Planned Path**  
-![RRT Path](https://github.com/user-attachments/assets/747cb666-4ea9-463b-b80e-a40dcf2c1c4f)
+## 📸 Results
+
+**Gazebo Simulation**  
+![Gazebo Simulation](imgs/gazebo_end_pos.png)
+
+**RRT Path Tree**  
+![RRT Path](imgs/rrt_tree.png)
+
 
 
