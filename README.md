@@ -17,6 +17,16 @@ The planner generates a collision-free path on a grid map and uses a simple goal
 ---
 
 
+## Results
+**Gazebo Simulation**  
+<img width="1920" height="1080" alt="gazebo_end_pos" src="https://github.com/user-attachments/assets/5f76797b-65d7-4045-b593-9e69e8544d23" />
+
+
+**RRT Path Tree**  
+<img width="653" height="547" alt="rrt_path" src="https://github.com/user-attachments/assets/9669eb0b-705c-4505-adef-b383cbc88ec6" />
+
+
+
 ##  How to Run
 ```bash
 # Set model
@@ -32,18 +42,6 @@ roslaunch rrt rrt.launch
 
 ---
 
-
----
-
-
-
-## 📸 Results
-
-**Gazebo Simulation**  
-![Gazebo Simulation](results/gazebo_end_pos.png)
-
-**RRT Path Tree**  
-![RRT Path](imgs/rrt_tree.png)
 
 
 
